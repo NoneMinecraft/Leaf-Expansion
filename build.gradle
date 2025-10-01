@@ -1,0 +1,33 @@
+plugins {
+    id "java"
+    id "idea"
+    id "org.jetbrains.kotlin.jvm" version "1.8.22"
+    id "net.minecraftforge.gradle.forge" version "5.1.+"
+    id "org.spongepowered.mixin" version "0.7.11-SNAPSHOT"
+}
+
+dependencies {
+    compileOnly("org.spongepowered:mixin:0.7.11-SNAPSHOT") { transitive = false }
+    compileOnly "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compileOnly "org.jetbrains.kotlin:kotlin-reflect:2.0.0"
+    compileOnly "com.jagrosh:DiscordIPC:0.4"
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url = "https://repo.spongepowered.org/repository/maven-public/" }
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+minecraft {
+    version = "1.8.9-11.15.1.2318-1.8.9"
+    mappings = "stable_22"
+}
+
+archivesBaseName = "Leaf-Expand"
