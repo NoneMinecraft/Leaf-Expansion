@@ -9,6 +9,7 @@ Expansion project pack designed for Leaf Client D series
 | 覆写命令        | ✅          |
 | 覆写函数        | ✅          |
 | 添加事件        | ✅          |
+| Leaf-支持库        | ✅          |
 | Minecraft lib        | ✅          |
 | nashorn       | ✅          |
 | 覆写事件        | ❌          |
