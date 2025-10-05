@@ -13,6 +13,8 @@ Expansion project pack designed for Leaf Client D series
 | Minecraft lib        | ✅          |
 | nashorn       | ✅          |
 | 专属Mixin API        | ✅        |
+| 调用函数        | ✅        |
+| 添加人造的event        | ✅        |
 | 覆写事件        | ❌          |
 | 添加Value        | ❌          |
 | 覆写Value        | ❌          |
