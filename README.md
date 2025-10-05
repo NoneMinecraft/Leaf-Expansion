@@ -12,7 +12,7 @@ Expansion project pack designed for Leaf Client D series
 | Leaf-支持库        | ✅          |
 | Minecraft lib        | ✅          |
 | nashorn       | ✅          |
-| 专属Mixin API        | ⚠️        |
+| 专属Mixin API        | ✅        |
 | 覆写事件        | ❌          |
 | 添加Value        | ❌          |
 | 覆写Value        | ❌          |
